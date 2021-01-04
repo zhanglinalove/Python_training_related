@@ -6,3 +6,5 @@
 
 > 老师的答复: ②要解决的是cookie问题，而知乎post用户密码是加密的可以采用调用知乎的js加密密码提交，也可以采用selenium模拟浏览器登陆成功一次拿到cookie再继续用requests做自动化操作，其他大家可以讨论
 
+#  https://www.zhihu.com/tardis/sogou/art/32898234?ab_signature=CiRBUEJneXFtV3ZROUxCZThtLXZ2M2VmcV9YZ0k3Znczclcwaz0SIDU1MWQ0YzllY2JjNDE3ZmMxYWJmMDk5NzU5NmE4ZWZiGhAIARIGNi42OS4xGgQzNDYw
+
