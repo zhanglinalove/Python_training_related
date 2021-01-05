@@ -34,3 +34,9 @@ if __name__ == '__main__':
    ②客户端接收到服务端，传递的数据之后，将其写入到对应的文件中
    ③客户端接收完成服务端，传递的数据之后，给服务端返回一个标志位
 '''
+
+
+'''
+ 助教提供的Python编写规范的参考文档:
+ https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/
+'''

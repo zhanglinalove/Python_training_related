@@ -22,7 +22,7 @@ def echo_server():
             with open('/Users/zhanglina/Desktop/'+ file_name ,'rb') as file:
                 while True:
                     file_data = file.read(1024)
-                    time.sleep(100)
+                    time.sleep(20)
                     print("读取文件内容是:",file_data.decode("utf-8"))
 
                     if file_data:
