@@ -72,12 +72,13 @@ Base.metadata.create_all(engine)
 SessionClass = sessionmaker(bind=engine)
 session = SessionClass()
 
-user_demo = User_table(user_id= '123')
-user_demo = User_table(user_name= 'zhanglina')
-user_demo = User_table(age= '30')
-user_demo = User_table(birthday= '2020-09-19')
-user_demo = User_table(sex= '女')
-user_demo = User_table(education_level= '本科')
+user_demo = User_table(user_id= '123',
+                       user_name= 'zhanglina',
+                       age= '30',
+                       birthday= '2020-09-19',
+                       sex= '女',
+                       education_level= '本科'
+                       )
 
 session.add(user_demo)
 session.commit()
