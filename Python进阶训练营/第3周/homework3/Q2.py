@@ -1,3 +1,7 @@
+# 作业2说明:使用 sqlalchemy ORM 方式创建如下表，使用 PyMySQL 对该表写入 3 条测试数据，
+# 并读取:【用户 id、用户名、年龄、生日、性别、学历、字段创建时间、字段更新时间。
+# 将 ORM、插入、查询语句作为作业内容提交】
+
 from enum import unique
 from sqlalchemy.orm import sessionmaker
 import pymysql
@@ -6,11 +10,6 @@ from sqlalchemy.ext.declarative import declarative_base
 from datetime import datetime
 from sqlalchemy import DateTime
 
-
-
-# 作业2说明:使用 sqlalchemy ORM 方式创建如下表，使用 PyMySQL 对该表写入 3 条测试数据，
-# 并读取:【用户 id、用户名、年龄、生日、性别、学历、字段创建时间、字段更新时间。
-# 将 ORM、插入、查询语句作为作业内容提交】
 
 Base = declarative_base()
 
