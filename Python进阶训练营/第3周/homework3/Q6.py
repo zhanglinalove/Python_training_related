@@ -52,16 +52,13 @@ class User_table(Base):
     user_id          = Column(Integer(), primary_key = True)
     user_name        = Column(String(100), unique = True)
 
-#  创建一个表，并将其实例化
-#  实例一个引擎
+# 实例一个引擎
 dburl = "mysql+pymysql://root:365040382@localhost:3306/testdb?charset=utf8mb4"
 engine =  create_engine(dburl, echo = True, encoding ="utf-8")
 
 
 # 创建表的操作
 Base.metadata.create_all(engine)
-
-# 1- 创建一个Session，进行数据插入的操作
 
 
 
