@@ -1,0 +1,11 @@
+@所有人
+第六周作业总结
+1. 大部分同学，作业要求4理解错误，是同一只动物（实例）不是同一个动物类
+2. hasattr 为 python 内置函数（部分同学通过自定义函数 hasattr 实现功能），需要通过 __getattr__ 来实现
+3. 判断是否为宠物的逻辑可以直接通过 return not 是否凶猛 来实现，减少 if else 判断
+4. 完成作业同学很少
+
+注：可以参考一下如下两位同学的作业
+李贵平 https://github.com/liguiping3/Python006-006/tree/main/week06
+杨刚 https://github.com/gyyy2020/Python006-006/tree/main/week06
+学习一下作业要求4的实现方法（set + eval）
